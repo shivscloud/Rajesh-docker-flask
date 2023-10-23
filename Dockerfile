@@ -10,7 +10,7 @@ COPY . /app
 RUN python -m pip install --upgrade pip
 RUN python -m pip install -r requirements.txt
 # Make port 80 available to the world outside this container
-EXPOSE 80
+EXPOSE 5000
 
 # Define environment variable
 # ENV DATABASE_URL=postgres://myuser:mypassword@db:5432/mydatabase
