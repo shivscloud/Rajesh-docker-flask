@@ -8,11 +8,11 @@ url = "postgres://raj:UPL64CjBLgQd4Sc5VlvRNcE4268zPjNg@dpg-ckrb2pg5vl2c73bqmhgg-
 
 url = os.environ.get('DATABASE_URL')
 db_params = {
-    # url
-    'database': 'raj',
-    'user': 'raj',
-    'password': 'UPL64CjBLgQd4Sc5VlvRNcE4268zPjNg',
-    'host': 'dpg-ckrb2pg5vl2c73bqmhgg-a.oregon-postgres.render.com',
+    url
+    # 'database': 'raj',
+    # 'user': 'raj',
+    # 'password': 'UPL64CjBLgQd4Sc5VlvRNcE4268zPjNg',
+    # 'host': 'dpg-ckrb2pg5vl2c73bqmhgg-a.oregon-postgres.render.com',
 }
 
 
